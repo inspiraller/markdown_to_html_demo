@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inspiraller/markdown_to_html_demo.git"
+  },
   "keywords": [],
   "author": "Steve Tomlin",
   "license": "ISC",
