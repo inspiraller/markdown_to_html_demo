@@ -2,14 +2,14 @@
 - <https://github.com/showdownjs/showdown>
 - <https://scotch.io/tutorials/building-a-real-time-markdown-viewer>
 
-# Set up guide
+## Set up guide
 
-## Prerequisites
+### Prerequisites
 - node
 
 Download from <https://nodejs.org/en/download/>
 
-## How to run
+### How to run
 Using your preferred commandline editor
 ```shell
 $ cd yourFolder
@@ -19,7 +19,7 @@ $ npm install
 $ npm start
 ```
 
-## How to view
+### How to view
 open up a web browser and visit:
 http://localhost:3000/
 

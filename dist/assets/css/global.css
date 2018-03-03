@@ -1,19 +1,39 @@
 * {
   box-sizing: border-box;
 }
+html{
+	font-size:62.5%;
+}
 body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   background: #f8f8f8;
   color: #464646;
+  font-size: 20px;
+  font-size: 2rem;
+  background: #fffffe;
+}
+
+main {
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0 30px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  background: #fff;
 }
 
 body,
 button {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'PT Serif', arial;
 }
 
+h1 {
+  font-size: 34px;
+  font-size:3.4rem;
+}
 h2 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
