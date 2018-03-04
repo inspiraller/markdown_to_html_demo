@@ -6,7 +6,15 @@ const fs = require('fs');
 const ejs = require('ejs');
 const path = require('path');
 
+var mds = require('require-all')(__dirname + '/READMES');
+
+console.log('mds = ', mds);
+
 const isProduction = (process.env.NODE_ENV === 'production');
+
+const mdfiles = fs.readdirSync(__dirname + '/READMES/');
+
+console.log('mdfiles = ', mdfiles);
 
 const mdExample = fs.readFileSync('./README.md', 'utf8');
 const templateMain = fs.readFileSync('./src/ejsTemplates/templateMain.ejs', 'utf8');

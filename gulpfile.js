@@ -9,8 +9,9 @@ const env = gutil.env.env;
 var BROWSER_SYNC_REFRESH = 1; // increase this value if browsersync fails to refresh.
 
 var paths = {
-  app: './app.js'
-}
+  app: './app.js',
+  'READMES': './READMES/*.md'
+};
 
 var arrWatchPaths = [];
 for (key in paths){

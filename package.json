@@ -18,15 +18,16 @@
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "require-all": "^2.2.0",
     "showdown": "^1.8.6"
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "stylelint": "^9.1.1",
-    "gulp-util": "^3.0.8",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
+    "gulp-util": "^3.0.8",
     "morgan": "^1.9.0",
-    "nodemon": "^1.17.1"
+    "nodemon": "^1.17.1",
+    "stylelint": "^9.1.1"
   }
 }
