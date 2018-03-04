@@ -1,0 +1,68 @@
+/********************************************************************************************/
+/* reset */
+* {
+  box-sizing: border-box;
+}
+html{
+	font-size:62.5%;
+}
+
+/********************************************************************************************/
+/* common */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  background: #f8f8f8;
+  color: #464646;
+  font-size: 20px;
+  font-size: 2rem;
+  background: #fffffe;
+}
+
+body,
+button {
+  font-family: 'PT Serif', arial;
+}
+
+h1 {
+  font-size: 34px;
+  font-size:3.4rem;
+}
+h2 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+
+input {
+  font-size: 20px;
+  font-size: rem;
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+/********************************************************************************************/
+/* skeleton */
+header,
+main {
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0 30px;
+  width: 50%;
+  margin: 0 auto;
+  background: #fff;
+  display: block;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/********************************************************************************************/
+/* components */
+.search input,
+.search i {
+  display: inline-block;
+}

@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "./custom_lint_rules/selector-no-unnecessary-nesting/index.js",
+    "./custom_lint_rules/no-extending-classes/index.js"
+  ],
+  "rules": {
+    "custom_lint_rules/selector-no-unnecessary-nesting":true
+    "custom_lint_rules/no-extending-classes":true,
+    "selector-max-id":0,
+    "declaration-no-important":true,
+    "declaration-block-single-line-max-declarations":1,
+    "no-duplicate-selectors":true
+  }
+}

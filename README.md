@@ -20,7 +20,7 @@ $ npm start
 ```
 
 ### How to view
-open up a web browser and visit:
+Open up a web browser and visit:
 http://localhost:3000/
 
 You will see a webpage that reads the content of the README.md file and outputs it into the body of the webpage.
